@@ -194,6 +194,7 @@ background-blend-mode: darken;
     background-color: #f6f5f4;
     /* height: 833px; */
     font-family: "Ubuntu", serif;
+    padding: 8px;
 
 }
 .Text-center{
@@ -210,7 +211,7 @@ background-blend-mode: darken;
 }
 .form-input{
     margin: 14px 0;
-    padding: 5px 3px ;
+    padding: 5px 5px ;
     width: 800px;
     font-size: 19px;
     border: 2px solid grey;
@@ -255,7 +256,7 @@ top: 15px;
     .navbar{
         flex-direction: column;
         height: 478px;
-        transition: all 1.7s ease-out;
+        transition: all 0.7s ease-out;
     }
     .rightNav{
         text-align: center;
@@ -276,11 +277,16 @@ top: 15px;
         flex-direction: column-reverse;
         max-width: 100%;
     }
+    .Contact{
+        padding: 8px;
+    }
     .form{
         max-width: 60%;
+        /* padding: 5px; */
     }
     .form-input{
-        width: 290px;
+        width: 260px;
+        /* padding: 8px; */
     }
     .secright{
     flex-direction: column-reverse;
